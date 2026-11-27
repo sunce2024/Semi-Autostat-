@@ -1,3 +1,6 @@
+สำหรับโปรเจกต์ที่มีไฟล์ Python หลายไฟล์ (main_stat_edit1.py และโมดูลสถิติอีก 16 ไฟล์) พร้อมตัวรันคำสั่ง streamlit run 
+เครื่องมือที่ช่วยให้แก้ไขและหาจุดผิดได้ง่ายที่สุดคือ Visual Studio Code (VS Code)
+
 Library ที่ต้องติดตั้งเพิ่มผ่าน pip และ Library พื้นฐานที่มีมาพร้อมกับ Python อยู่แล้ว
 :streamlit — สร้างหน้าเว็บ UI สำหรับกดปุ่มควบคุมขั้นตอนต่างๆ (st.tabs, st.button, st.columns ฯลฯ)
 selenium — สั่งงานเปิด Chrome, เปลี่ยน URL, รอ Element โหลด (WebDriverWait) และกรอกข้อมูลลงฟอร์มเว็บpandas — อ่านและจัดการข้อมูลจากไฟล์ตารางสถิติ (pd.read_excel)
